@@ -1,0 +1,7 @@
+function main() {
+   return union(
+      cylinder({r: 40, h: 2, fn: 100}),
+      cylinder({r: 7, h: 100, fn: 100})
+   );
+}
+
